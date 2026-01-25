@@ -3,13 +3,18 @@ name = "agentic-rag"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.13,<4.0"
 dependencies = [
+    "beautifulsoup4>=4.14.3",
     "black>=26.1.0",
+    "chromadb>=1.4.1",
     "isort>=7.0.0",
     "langchain>=1.2.7",
+    "langchain-community>=0.4.1",
     "langchain-openai>=1.1.7",
     "langchain-tavily>=0.2.17",
+    "langchainhub>=0.1.21",
     "langgraph>=1.0.7",
+    "pytest>=9.0.2",
     "python-dotenv>=1.2.1",
 ]
