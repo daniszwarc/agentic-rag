@@ -21,7 +21,7 @@ def test_retrieval_grader_answer_no() -> None:
     doc_txt = docs[1].page_content
 
     res: GradeDocuments = retrieval_grader.invoke(
-        {"question": "How to make pizza", "document": doc_txt}
+        {"question": "question", "document": doc_txt}
     )
 
     assert res.binary_score == "no"
